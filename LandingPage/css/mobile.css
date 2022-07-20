@@ -1,0 +1,18 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 90px;
+}
+#social .items{
+    flex-direction: column;
+
+}
+#social .items .item{
+    width: 100½;
+
+}
+.technologies .technology{
+    flex-direction: column;
+}

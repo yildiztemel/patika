@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:rgb(238, 234, 234);
+
+}
+
+html{
+ font-family: "Open Sans", sans-serif;
+}
+/*NAVBAR*/
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.75rem;
+    height: 70px;
+    
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#navbar ul li a{
+    padding: 0.75rem;
+    color: aliceblue;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 6px;
+}
+/*HOME Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+   max-width: 250px;
+   height: auto;
+   border-radius: 100px;
+
+}
+#home .name h2{
+    margin-bottom:0.75rem ;
+}
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+    
+}
+#home a{
+    margin-top: 1.25rem;
+    background:#336ea2 ;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+
+}
+#home a:hover{
+    color: #a9acaf;
+    background: #fff;
+    border: 0.5px solid #336ea2;
+}
+/*sosyal*/
+#social{
+    color: #fff;
+    padding: 1rem;
+}
+#social .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#social .items .item{
+    
+    width: 33½;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+#social .items .item:hover{
+    color: grey;
+    opacity: 0.6;
+
+}
+/*TECHNOLOGY*/
+#technologies {
+    color: #333;
+    padding: 1rem;
+
+}
+.technologies  {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+
+}
+.technologies .technology {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.technologies .technology .technology-image {
+    margin-right: 0.5;
+    position: relative;
+
+
+}
+.technologies .technology .technology-image img {
+    border-radius: 20px;
+}
+.technologies .technology .technology-info  .title {
+    letter-spacing: 1.2px;
+    font-weight:800 ;
+    margin-bottom: 0.25rem;
+
+
+}
+.technologies .technology .technology-info .title .p {
+    letter-spacing: 1.2px;
+    margin-bottom: 00.25rem;
+    opacity: 0.4;
+    
+
+
+}
+/*CONTACT*/
+#Contact{
+    color: #fff;
+    padding: 1rem;
+
+}
+#Contact .Contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#Contact .Contact-form ul{
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#Contact .Contact-form ul li a{
+    padding: 1rem;
+    font-size: 4rem;
+}
+#Contact .Contact-form ul li a:hover{
+    opacity: 0.6;
+}
+#Contact .Contact-form button:hover{
+    color: #336ea2;
+    background: darkblue;
+    border: 0.5px solid #336ea2;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
